@@ -14,7 +14,8 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "quickstart"
+          "decision-model",
+          "workflows"
         ]
       }
     ],
@@ -22,19 +23,12 @@
       "anchors": [
         {
           "anchor": "Home",
-          "href": "https://codanetwork.io",
+          "href": "https://www.codanetwork.io",
           "icon": "newspaper"
         }
       ]
     },
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index"
-        ]
-      }
-    ]
+    "groups": []
   },
   "navbar": {
     "links": [],

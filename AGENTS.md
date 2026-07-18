@@ -1,7 +1,3 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
-
 # Documentation project instructions
 
 ## About this project
@@ -14,12 +10,14 @@
 
 ## Terminology
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- Use "institution" for the organization defining policy.
+- Use "decision" for an `ALLOW`, `REVIEW`, or `DENY` outcome.
+- Use "digital asset interaction" when describing wallet creation, signing,
+  deposits, or withdrawals together.
+- Do not describe Coda as custody, analytics, a system of record, or a source of
+  blockchain intelligence.
 
 ## Style preferences
-
-{/* Add any project-specific style rules below */}
 
 - Use active voice and second person ("you")
 - Keep sentences concise — one idea per sentence
@@ -29,5 +27,9 @@
 
 ## Content boundaries
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- Treat approved public Coda Network product copy as the source of truth.
+- Document current public concepts and workflows only.
+- Do not publish API endpoints, request or response schemas, availability
+  commitments, certifications, deployment models, or security claims without
+  explicit product and security approval.
+- Do not publish internal test, component-demo, or visual-style pages.
