@@ -32,4 +32,6 @@
 - Do not publish API endpoints, request or response schemas, availability
   commitments, certifications, deployment models, or security claims without
   explicit product and security approval.
-- Do not publish internal test, component-demo, or visual-style pages.
+- `style-test.mdx` is an explicitly approved public visual-test page. Do not
+  remove it without explicit maintainer approval.
+- Do not publish other internal test, component-demo, or visual-style pages.
