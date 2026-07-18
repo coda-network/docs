@@ -6,7 +6,9 @@ This repository contains the public product documentation published at
 ## Content policy
 
 - Keep public claims aligned with approved Coda Network product copy.
-- Do not publish test, component-demo, or visual-style pages.
+- Keep `style-test.mdx` available as the explicitly approved public visual-test
+  page. Do not remove it without explicit maintainer approval.
+- Do not publish other test, component-demo, or visual-style pages.
 - Do not publish API contracts, security claims, or availability commitments
   without the required product and security approval.
 - Request review for every change before merging it into `main`.
