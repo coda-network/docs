@@ -1,0 +1,27 @@
+/* Apply CODA brand colors to every Mintlify callout. */
+.callout[data-callout-type] {
+  background-color: rgba(26, 102, 229, 0.18) !important;
+  border-color: rgba(70, 132, 238, 0.38) !important;
+  color: #d7e4fd !important;
+}
+
+.callout[data-callout-type]
+  [data-component-part="callout-content"] {
+  color: #d7e4fd !important;
+}
+
+.callout[data-callout-type]
+  [data-component-part="callout-icon"],
+.callout[data-callout-type]
+  [data-component-part="callout-icon"] svg {
+  color: #7fa8f5 !important;
+}
+
+.callout[data-callout-type] a {
+  color: #7fa8f5 !important;
+}
+
+.callout[data-callout-type] code {
+  background-color: rgba(26, 102, 229, 0.22) !important;
+  color: #afc9fb !important;
+}
