@@ -1,0 +1,45 @@
+---
+title: "Institutional workflows"
+description: "See where Coda Network adds authorization to wallet, deposit, and withdrawal workflows."
+icon: "diagram-project"
+---
+
+Coda Network adds an institution-defined authorization decision at key control points
+in the digital asset lifecycle. Each workflow uses the same decision model while
+preserving the responsibilities of your existing systems.
+
+## Wallet linking
+
+Associate an external wallet or account with an institutional customer record
+using supported verification evidence. Coda helps preserve that context so your
+institution can use it in later deposit and withdrawal decisions.
+
+**Expected outcome:** The institution receives a consistent decision about
+whether to establish or continue the relationship between the customer record
+and the external wallet or account.
+
+## Inbound deposit decisioning
+
+Evaluate the available source context, asset, amount, configured intelligence,
+and institutional policy before crediting a deposit internally.
+
+**Expected outcome:** Coda returns `ALLOW`, `REVIEW`, or `DENY` for the internal
+crediting decision. The decision does not claim to prevent or reverse an
+on-chain transfer.
+
+## Outbound withdrawal authorization
+
+Evaluate destination context, policy thresholds, and approval requirements
+before a withdrawal enters the institution's signing or broadcast workflow.
+
+**Expected outcome:** Coda returns the authorization decision while your
+institution retains its keys and controls signing, broadcast, and execution.
+
+<Note>
+  Supported inputs and implementation details depend on the workflow agreed
+  with Coda Network. Coda does not take custody of assets or execute transfers.
+</Note>
+
+<Card title="Understand control and responsibility" icon="shield" href="/control-and-responsibility" horizontal arrow>
+  See how Coda fits alongside your policy, data, custody, and execution systems.
+</Card>

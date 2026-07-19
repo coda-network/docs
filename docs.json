@@ -11,11 +11,17 @@
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Product",
         "pages": [
           "index",
-          "decision-model",
-          "workflows"
+          "how-coda-works"
+        ]
+      },
+      {
+        "group": "For institutions",
+        "pages": [
+          "institutional-workflows",
+          "control-and-responsibility"
         ]
       }
     ],

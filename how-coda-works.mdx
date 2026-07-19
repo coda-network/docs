@@ -1,0 +1,55 @@
+---
+title: "How Coda Network works"
+description: "Follow a digital asset interaction from submitted context to a Coda Network authorization decision."
+icon: "sliders"
+---
+
+Coda Network turns the context surrounding a digital asset interaction into a clear
+authorization decision. It coordinates the systems your institution already
+uses and evaluates their inputs through your active policy.
+
+<Steps>
+  <Step title="Submit or observe an interaction">
+    Your institution provides the wallet, deposit, or withdrawal context relevant
+    to the decision.
+  </Step>
+  <Step title="Assemble the available context">
+    Coda brings together relevant wallet, transaction, customer, and configured
+    provider inputs. Each connected system remains authoritative for its data.
+  </Step>
+  <Step title="Apply institution-defined policy">
+    Coda evaluates the interaction against your institution's rules, thresholds,
+    and approval requirements.
+  </Step>
+  <Step title="Return a decision and its reasons">
+    Coda returns `ALLOW`, `REVIEW`, or `DENY` with recorded reasons that explain
+    the outcome to the downstream workflow.
+  </Step>
+</Steps>
+
+## Decision outcomes
+
+<Tabs>
+  <Tab title="ALLOW" icon="circle-check">
+    The interaction satisfies the policy conditions required for the
+    institution's next action.
+  </Tab>
+  <Tab title="REVIEW" icon="clock">
+    The interaction requires institution-defined review before the downstream
+    action continues.
+  </Tab>
+  <Tab title="DENY" icon="ban">
+    The interaction does not satisfy an enforced policy condition and must not
+    proceed to the requested institutional action.
+  </Tab>
+</Tabs>
+
+## Evidence for each decision
+
+Coda records the relevant inputs, policy version, and reason codes with the
+decision. This gives product, compliance, and operations teams a consistent
+explanation for automated outcomes and review cases.
+
+<Card title="Explore institutional workflows" icon="diagram-project" href="/institutional-workflows" horizontal arrow>
+  See where Coda adds authorization across wallet, deposit, and withdrawal workflows.
+</Card>
