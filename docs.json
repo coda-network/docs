@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Coda Network",
+  "name": "CODA",
   "colors": {
     "primary": "#1A66E5",
     "light": "#4684EE",
     "dark": "#1453C4"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/logo_sqr.svg",
+    "dark": "/images/logo_sqr.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -70,5 +73,9 @@
   "appearance": {
     "default": "dark",
     "strict": true
+  },
+  "logo": {
+    "light": "/images/logo_dark_rec.svg",
+    "dark": "/images/logo_dark_rec.svg"
   }
 }
