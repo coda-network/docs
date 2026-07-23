@@ -1,11 +1,11 @@
-# Coda Network documentation
+# Coda documentation
 
 This repository contains the public product documentation published at
 `https://doc.codanetwork.io/`.
 
 ## Content policy
 
-- Keep public claims aligned with approved Coda Network product copy.
+- Keep public claims aligned with approved Coda product copy.
 - Keep `style-test.mdx` available as the explicitly approved public visual-test
   page. Do not remove it without explicit maintainer approval.
 - Do not publish other test, component-demo, or visual-style pages.

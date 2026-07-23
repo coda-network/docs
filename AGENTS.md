@@ -2,7 +2,7 @@
 
 ## Project scope and structure
 
-This repository contains the public, English-language documentation for Coda Network, built with Mintlify. Documentation pages are MDX files in the repository root or in topic-specific directories. Each page begins with YAML frontmatter that defines its title, description, and optional navigation metadata.
+This repository contains the public, English-language documentation for Coda, built with Mintlify. Documentation pages are MDX files in the repository root or in topic-specific directories. Each page begins with YAML frontmatter that defines its title, description, and optional navigation metadata.
 
 `docs.json` is the source of truth for site configuration, navigation, branding, and integrations. Update it whenever you add, remove, rename, or move a navigable page. Put static assets in the location referenced by `docs.json` or the relevant MDX page.
 
@@ -26,7 +26,7 @@ Maintainers may make documentation changes directly after assessing an issue. Ke
 
 ## Documentation standards
 
-Write for developers and institutional operators who use Coda Network.
+Write for developers and institutional operators who use Coda.
 
 - Use active voice and address the reader as “you.” Keep sentences concise and express one idea per sentence.
 - Use sentence case for headings. Use descriptive page titles and task-oriented descriptions.
@@ -42,7 +42,8 @@ Documentation authors decide the content of general public documentation. Use so
 
 Use the following product language consistently:
 
-- Use “Coda Network” for the company and product name. Use “Coda” only after the full name is established in a page.
+- Use “Coda” for both the company and product name.
+- Render the logo and wordmark as “CODA”; use “Coda” in prose.
 - Use “institution” for the organization defining policy.
 - Use “decision” for an `ALLOW`, `REVIEW`, or `DENY` outcome. Write those outcomes in uppercase.
 - Use “digital asset interaction” when describing wallet creation, signing, deposits, or withdrawals together.

@@ -1,4 +1,4 @@
-/* Apply CODA brand colors to every Mintlify callout. */
+/* Apply Coda brand colors to every Mintlify callout. */
 .callout[data-callout-type] {
   background-color: rgba(26, 102, 229, 0.18) !important;
   border-color: rgba(70, 132, 238, 0.38) !important;
